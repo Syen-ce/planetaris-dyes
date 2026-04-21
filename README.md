@@ -2,18 +2,17 @@
 
 ![Alt text](https://raw.githubusercontent.com/Syen-ce/planetaris-factorio-images/refs/heads/main/dyes-production.png)
 
-# Welcome to Arig
+# Dyes!
 
-Arig a desert planet with limited resources, a hot place with vast deserts where valuable resources can only be found underground or in the sand. Constant sandstorms make the use of robots unviable, and most of the surface is unsuitable for building without a proper foundation.
-
-![Alt text](https://raw.githubusercontent.com/Syen-ce/planetaris-factorio-images/refs/heads/main/dyes-concretes.png)
-
-![Alt text](https://raw.githubusercontent.com/Syen-ce/planetaris-factorio-images/refs/heads/main/dyes-train-station.png)
+This mod adds 6 new dyes items to the game, useful for tinting some parts of your factory. Planetaris: Dyes is compatible with the Base game and Space age but was originally created to be part of [Tellus](https://mods.factorio.com/mod/planetaris-tellus). The mod is completely customizable with settings to enable/disable any of the additions and also the secondary colors (Cyan, Magenta and Yellow)
 
 ![Alt text](https://raw.githubusercontent.com/Syen-ce/planetaris-factorio-images/refs/heads/main/dyes-pipes.png)
 
-# Is it safe to add the mod to an existing save?
-Is completely safe to play in an existing save.
+# Pipe system
+
+Dyed pipes are able to interact with any machine and normal pipes but not between eachother, making them great for transporting fluid in more compact ways.
+
+![Alt text](https://raw.githubusercontent.com/Syen-ce/planetaris-factorio-images/refs/heads/main/dyes-train-station.png)
 
 # Additions
 -  6 new dye items
@@ -25,6 +24,13 @@ Is completely safe to play in an existing save.
 -  6 new stone wall tiles
 -  6 new pipes and underground pipes
 
-### Cactus processing
+![Alt text](https://raw.githubusercontent.com/Syen-ce/planetaris-factorio-images/refs/heads/main/dyes-concretes.png)
 
-Plant and harvest the natural cactuses on Arig's surface using the new condensing agricultural tower to obtain cactus fruits and water.
+# Is it safe to add the mod to an existing save?
+Is completely safe to play in an existing save.
+
+# Planetaris unbounded
+
+[Planetaris Unbounded](https://mods.factorio.com/mod/planetaris-unbounded) is modpack that enables all planetaris mods, they are intended to be played together but they still work on their own.
+
+![Alt text](https://raw.githubusercontent.com/Syen-ce/planetaris-factorio-images/refs/heads/main/planetaris-title.png)
