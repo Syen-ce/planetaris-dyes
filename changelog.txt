@@ -1,0 +1,8 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-03-06
+  Features:
+    - Added 6 new dyes and item variants
+    - Added Settings to enable/disable added items
+
+
