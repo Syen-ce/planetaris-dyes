@@ -247,5 +247,15 @@ if mods["space-age"] and not mods["planetaris-tellus"] then
     end
 
     end    
+
+    if settings.startup["disable-gleba-recipe-surface-conditions"] == true then
+        PlanetarisLib.clear_recipe_surface_condition("planetaris-red-dye")
+        PlanetarisLib.clear_recipe_surface_condition("planetaris-green-dye")
+        PlanetarisLib.clear_recipe_surface_condition("planetaris-blue-dye")
+        PlanetarisLib.clear_recipe_surface_condition("planetaris-magenta-dye")
+        PlanetarisLib.clear_recipe_surface_condition("planetaris-cyan-dye")
+        PlanetarisLib.clear_recipe_surface_condition("planetaris-yellow-dye")
+    end
+
 end
 
