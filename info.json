@@ -1,11 +1,12 @@
 {
   "name": "planetaris-dyes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "Planetaris: dyes",
   "author": "Syen",
   "factorio_version": "2.0",
   "dependencies": [
-    "base >= 2.0.28"
+    "base >= 2.0.28",
+    "? Krastorio2-spaced-out"
   ],
   "description": "Renew your pipe system, defenses, and floors with 6 new dyes"
 }

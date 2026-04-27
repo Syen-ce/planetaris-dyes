@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2026-04-27
+  Features:
+    - Added setting to ignore gleba surface condition in recipes, only when tellus is not installed
+  Locale:
+    - Added spanish locale
+    - Fixed missing locale
+  Bugfixes:
+    - Fixed breaking steel pipes in Krastorio 2 SO
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2026-04-21
   Features:
