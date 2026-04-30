@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2026-04-30
+  Changes:
+    - Change magenta dye recipe (10 Electrolyte -> 1 Tungsten ore)
+  Bugfixes:
+    - Fixed K2SO pipes dont connecting to mining drills
+    - Fixed Disable gleba surface conditions setting not working
+---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2026-04-27
   Features:
