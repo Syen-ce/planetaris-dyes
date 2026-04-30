@@ -191,7 +191,7 @@ if mods["space-age"] and not mods["planetaris-tellus"] then
         {
         {type = "item",  name = "planetaris-red-dye",   amount = 5},
         {type = "item",  name = "planetaris-blue-dye",  amount = 5},
-        {type = "fluid", name = "electrolyte",          amount = 5},
+        {type = "item",  name = "tungsten-ore",         amount = 1},
         },
         results = {{type="item", name="planetaris-magenta-dye", amount=10}},
         crafting_machine_tint =
@@ -248,7 +248,7 @@ if mods["space-age"] and not mods["planetaris-tellus"] then
 
     end    
 
-    if settings.startup["disable-gleba-recipe-surface-conditions"] == true then
+    if settings.startup["disable-gleba-recipe-surface-conditions"].value == true then
         PlanetarisLib.clear_recipe_surface_condition("planetaris-red-dye")
         PlanetarisLib.clear_recipe_surface_condition("planetaris-green-dye")
         PlanetarisLib.clear_recipe_surface_condition("planetaris-blue-dye")
