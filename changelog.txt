@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 2026-06-24
+  Changes:
+    - Added production science pack to dye technologies
+    - Now with the early unlock setting recipes will use only nauvis items
+---------------------------------------------------------------------------------------------------
 Version: 1.0.4
 Date: 2026-05-26
   Changes:
