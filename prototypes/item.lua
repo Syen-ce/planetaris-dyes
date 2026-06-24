@@ -1,5 +1,14 @@
 local item_sounds = require("__base__.prototypes.item_sounds")
-local space_age_item_sounds = require("__space-age__.prototypes.item_sounds")
+local space_age_item_sounds
+
+if mods['space-age'] then
+  space_age_item_sounds = require("__space-age__.prototypes.item_sounds")
+else
+  space_age_item_sounds = {
+    agriculture_inventory_move = item_sounds.raw_fish_inventory_move,
+    agriculture_inventory_pickup = item_sounds.raw_fish_inventory_pickup,
+  }
+end
 
 data.extend({
 

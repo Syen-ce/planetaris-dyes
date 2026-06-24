@@ -4,7 +4,6 @@ local tile_trigger_effects = require("__base__/prototypes/tile/tile-trigger-effe
 local tile_pollution = require("__base__/prototypes/tile/tile-pollution-values")
 local tile_collision_masks = require("__base__/prototypes/tile/tile-collision-masks")
 local item_sounds = require("__base__.prototypes.item_sounds")
-local space_age_item_sounds = require("__space-age__.prototypes.item_sounds")
 
 local tile_graphics = require("__base__/prototypes/tile/tile-graphics")
 local tile_spritesheet_layout = tile_graphics.tile_spritesheet_layout

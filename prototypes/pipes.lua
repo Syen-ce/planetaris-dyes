@@ -5,7 +5,6 @@ local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
 local simulations = require("__base__.prototypes.factoriopedia-simulations")
 local item_sounds = require("__base__.prototypes.item_sounds")
-local space_age_item_sounds = require("__space-age__.prototypes.item_sounds")
 
 --- @param i integer
 local function make_visualization(i)
