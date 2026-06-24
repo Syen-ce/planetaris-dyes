@@ -7,7 +7,7 @@ Date: 2026-06-24
   Changes:
     - Removed Space age hard dependecy by SnaveSutit
   Locale:
-    - Added Chinese locale by Ephas
+    - Added Chinese locale by Esphas
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.4
 Date: 2026-05-26
