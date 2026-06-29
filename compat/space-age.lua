@@ -3,7 +3,7 @@ if mods["space-age"] and not mods["planetaris-tellus"] then
         {
         type = "recipe",
         name = "planetaris-red-dye",
-        category = "organic",
+        categories = {"organic"},
         surface_conditions =
         {
             {
@@ -41,7 +41,7 @@ if mods["space-age"] and not mods["planetaris-tellus"] then
     {
         type = "recipe",
         name = "planetaris-blue-dye",
-        category = "organic",
+        categories = {"organic"},
         surface_conditions =
         {
             {
@@ -79,7 +79,7 @@ if mods["space-age"] and not mods["planetaris-tellus"] then
     {
         type = "recipe",
         name = "planetaris-green-dye",
-        category = "organic",
+        categories = {"organic"},
         surface_conditions =
         {
             {
@@ -121,8 +121,6 @@ if mods["space-age"] and not mods["planetaris-tellus"] then
             table.insert(data.raw.technology["planetaris-primary-dyes"].unit.ingredients, {"agricultural-science-pack", 1})
             table.insert(data.raw.technology["planetaris-primary-dyes"].prerequisites, "agricultural-science-pack")
         end
-    else
-        PlanetarisLib.add_or_replace_recipe_ingredient("planetaris-green-dye", "jelly", {type = "fluid", name = "lubricant", amount = 1})
     end
 
     if settings.startup["dye-secondary-color"].value == true then
@@ -131,7 +129,7 @@ if mods["space-age"] and not mods["planetaris-tellus"] then
     {
         type = "recipe",
         name = "planetaris-cyan-dye",
-        category = "organic",
+        categories = {"organic"},
         surface_conditions =
         {
             {
@@ -169,7 +167,7 @@ if mods["space-age"] and not mods["planetaris-tellus"] then
     {
         type = "recipe",
         name = "planetaris-magenta-dye",
-        category = "organic",
+        categories = {"organic"},
         surface_conditions =
         {
             {
@@ -207,7 +205,7 @@ if mods["space-age"] and not mods["planetaris-tellus"] then
     {
         type = "recipe",
         name = "planetaris-yellow-dye",
-        category = "organic",
+        categories = {"organic"},
         surface_conditions =
         {
             {
@@ -250,9 +248,6 @@ if mods["space-age"] and not mods["planetaris-tellus"] then
             table.insert(data.raw.technology["planetaris-secondary-dyes"].unit.ingredients, {"agricultural-science-pack", 1})
             table.insert(data.raw.technology["planetaris-secondary-dyes"].prerequisites, "agricultural-science-pack")
         end
-    else
-        PlanetarisLib.remove_recipe_ingredient("planetaris-cyan-dye", "iron-bacteria")
-        PlanetarisLib.remove_recipe_ingredient("planetaris-magenta-dye", "tungsten-ore")
     end
 
     end    
