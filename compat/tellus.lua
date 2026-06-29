@@ -4,7 +4,7 @@ data.extend({
     {
     type = "recipe",
     name = "planetaris-red-dye",
-    category = "organic",
+    categories = {"organic"},
     surface_conditions =
     {
         {
@@ -32,7 +32,7 @@ data.extend({
 {
     type = "recipe",
     name = "planetaris-blue-dye",
-    category = "organic",
+    categories = {"organic"},
     surface_conditions =
     {
         {
@@ -60,7 +60,7 @@ data.extend({
 {
     type = "recipe",
     name = "planetaris-green-dye",
-    category = "organic",
+    categories = {"organic"},
     surface_conditions =
     {
         {
@@ -99,7 +99,7 @@ data.extend({
 {
     type = "recipe",
     name = "planetaris-cyan-dye",
-    category = "organic",
+    categories = {"organic"},
     surface_conditions =
     {
         {
@@ -127,7 +127,7 @@ data.extend({
 {
     type = "recipe",
     name = "planetaris-magenta-dye",
-    category = "organic",
+    categories = {"organic"},
     surface_conditions =
     {
         {
@@ -155,7 +155,7 @@ data.extend({
 {
     type = "recipe",
     name = "planetaris-yellow-dye",
-    category = "organic",
+    categories = {"organic"},
     surface_conditions =
     {
         {
