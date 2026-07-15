@@ -2,7 +2,7 @@ data.extend({
     {
     type = "recipe",
     name = "planetaris-red-dye",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     allow_productivity = true,
     energy_required = 4,
@@ -22,7 +22,7 @@ data.extend({
   {
     type = "recipe",
     name = "planetaris-blue-dye",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     allow_productivity = true,
     energy_required = 4,
@@ -42,7 +42,7 @@ data.extend({
   {
     type = "recipe",
     name = "planetaris-green-dye",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     allow_productivity = true,
     energy_required = 4,
@@ -67,7 +67,7 @@ data.extend({
   {
     type = "recipe",
     name = "planetaris-cyan-dye",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     allow_productivity = true,
     energy_required = 4,
@@ -86,7 +86,7 @@ data.extend({
   {
     type = "recipe",
     name = "planetaris-magenta-dye",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     allow_productivity = true,
     energy_required = 4,
@@ -105,7 +105,7 @@ data.extend({
   {
     type = "recipe",
     name = "planetaris-yellow-dye",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     allow_productivity = true,
     energy_required = 4,
@@ -135,7 +135,7 @@ data.extend({
   {
     type = "recipe",
     name = "planetaris-"..color.."-pipe",
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     allow_productivity = false,
     energy_required = 4,
@@ -186,7 +186,7 @@ data.extend({
   {
     type = "recipe",
     name = "planetaris-"..color.."-stone-wall",
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     allow_productivity = false,
     energy_required = 4,
@@ -224,7 +224,7 @@ data.extend({
   {
     type = "recipe",
     name = "planetaris-"..color.."-"..item,
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     allow_productivity = false,
     energy_required = 4,
@@ -311,7 +311,7 @@ if settings.startup["dye-enable-refined-concrete"].value == true then
         {
           type = "recipe",
           name = "planetaris-orange-refined-concrete",
-          category = "advanced-crafting",
+          categories = {"advanced-crafting"},
           enabled = false,
           allow_productivity = false,
           energy_required = 4,
@@ -326,7 +326,7 @@ if settings.startup["dye-enable-refined-concrete"].value == true then
         {
           type = "recipe",
           name = "planetaris-acid-refined-concrete",
-          category = "advanced-crafting",
+          categories = {"advanced-crafting"},
           enabled = false,
           allow_productivity = false,
           energy_required = 4,
@@ -341,7 +341,7 @@ if settings.startup["dye-enable-refined-concrete"].value == true then
         {
           type = "recipe",
           name = "planetaris-pink-refined-concrete",
-          category = "advanced-crafting",
+          categories = {"advanced-crafting"},
           enabled = false,
           allow_productivity = false,
           energy_required = 4,
@@ -356,7 +356,7 @@ if settings.startup["dye-enable-refined-concrete"].value == true then
         {
           type = "recipe",
           name = "planetaris-black-refined-concrete",
-          category = "advanced-crafting",
+          categories = {"advanced-crafting"},
           enabled = false,
           allow_productivity = false,
           energy_required = 4,
@@ -372,7 +372,7 @@ if settings.startup["dye-enable-refined-concrete"].value == true then
         {
           type = "recipe",
           name = "planetaris-brown-refined-concrete",
-          category = "advanced-crafting",
+          categories = {"advanced-crafting"},
           enabled = false,
           allow_productivity = false,
           energy_required = 4,
