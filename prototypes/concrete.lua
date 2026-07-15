@@ -90,7 +90,7 @@ data.extend({
           u_transition =
           {
             spritesheet = "__base__/graphics/terrain/concrete/concrete-u-mask.png",
-            count = 8,
+            count = 4,
             scale = 0.5
           },
           o_transition =
