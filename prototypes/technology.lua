@@ -1,5 +1,6 @@
 local dyed_entities ={
     "pipe",
+    "pipe-to-ground",
     "stone-wall",
     "stone-brick",
     "concrete",
