@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.7
-Date: 2026-07-15
+Date: 2026-09-26
   Compatibility:
     - Made compatible with kr-steel-pipes mod
   Bugfixes:
