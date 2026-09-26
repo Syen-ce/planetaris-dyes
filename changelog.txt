@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 2026-07-15
+  Compatibility:
+    - Made compatible with kr-steel-pipes mod
+  Bugfixes:
+    - Fixed fuel_category cahnging to fuel_categories
+    - Fixed dyes and tinted items being able to recycle
+---------------------------------------------------------------------------------------------------
 Version: 1.0.6
 Date: 2026-07-15
   Compatibility:

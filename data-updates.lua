@@ -1,6 +1,7 @@
 PlanetarisLib = require ("PlanetarisLib")
 require ("compat.space-age")
 require ("compat.tellus")
+require ("compat.kr-steel-pipes")
 
 -- Add pipe connections
 
@@ -8,6 +9,10 @@ local base_pipe_categories = {"pipe-red", "pipe-blue", "pipe-green", "pipe-yello
 local pipe_categories = {"pipe-red", "pipe-blue", "pipe-green", "pipe-yellow", "pipe-cyan", "pipe-magenta"}
 
 if mods["Krastorio2-spaced-out"] then
+    table.insert(pipe_categories, "kr-steel-pipe")
+end
+
+if mods["k2-steel-pipes"] then
     table.insert(pipe_categories, "kr-steel-pipe")
 end
 
