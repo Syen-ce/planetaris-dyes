@@ -139,6 +139,10 @@ data.extend({
 })
 end
 
+local function fix_refined_concrete(color, tile)
+  data.raw.tile[tile].minable = {mining_time = 0.1, result = "planetaris-"..color.."-refined-concrete"}
+end
+
 if settings.startup["dye-enable-concrete"].value == true then
 
       make_concrete("red",   "a", {176, 41, 39}) -- originial color {176, 142, 39}
@@ -153,4 +157,20 @@ if settings.startup["dye-enable-concrete"].value == true then
 
     end
 
+end
+
+if settings.startup["dye-enable-refined-concrete"].value == true then
+    fix_refined_concrete("red", "red-refined-concrete")
+    fix_refined_concrete("blue", "blue-refined-concrete")
+    fix_refined_concrete("green", "green-refined-concrete")
+  if settings.startup["dye-secondary-color"].value == true then
+    fix_refined_concrete("cyan", "cyan-refined-concrete")
+    fix_refined_concrete("magenta", "purple-refined-concrete")
+    fix_refined_concrete("yellow", "yellow-refined-concrete")
+    fix_refined_concrete("orange", "orange-refined-concrete")
+    fix_refined_concrete("acid", "acid-refined-concrete")
+    fix_refined_concrete("pink", "pink-refined-concrete")
+    fix_refined_concrete("black", "black-refined-concrete")
+    fix_refined_concrete("brown", "brown-refined-concrete")
+  end
 end
