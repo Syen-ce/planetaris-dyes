@@ -5,6 +5,7 @@ data.extend({
     categories = {"chemistry"},
     enabled = false,
     allow_productivity = true,
+    auto_recycle = false,
     energy_required = 4,
     ingredients =
     {
@@ -25,6 +26,7 @@ data.extend({
     categories = {"chemistry"},
     enabled = false,
     allow_productivity = true,
+    auto_recycle = false,
     energy_required = 4,
     ingredients =
     {
@@ -45,6 +47,7 @@ data.extend({
     categories = {"chemistry"},
     enabled = false,
     allow_productivity = true,
+    auto_recycle = false,
     energy_required = 4,
     ingredients =
     {
@@ -70,6 +73,7 @@ data.extend({
     categories = {"chemistry"},
     enabled = false,
     allow_productivity = true,
+    auto_recycle = false,
     energy_required = 4,
     ingredients =
     {
@@ -89,6 +93,7 @@ data.extend({
     categories = {"chemistry"},
     enabled = false,
     allow_productivity = true,
+    auto_recycle = false,
     energy_required = 4,
     ingredients =
     {
@@ -108,6 +113,7 @@ data.extend({
     categories = {"chemistry"},
     enabled = false,
     allow_productivity = true,
+    auto_recycle = false,
     energy_required = 4,
     ingredients =
     {
@@ -138,6 +144,7 @@ data.extend({
     categories = {"advanced-crafting"},
     enabled = false,
     allow_productivity = false,
+    auto_recycle = false,
     energy_required = 4,
     ingredients =
     {
@@ -151,6 +158,7 @@ data.extend({
     name = "planetaris-"..color.."-pipe-to-ground",
     enabled = false,
     allow_productivity = false,
+    auto_recycle = false,
     energy_required = 4,
     ingredients =
     {
@@ -189,6 +197,7 @@ data.extend({
     categories = {"advanced-crafting"},
     enabled = false,
     allow_productivity = false,
+    auto_recycle = false,
     energy_required = 4,
     ingredients =
     {
@@ -227,6 +236,7 @@ data.extend({
     categories = {"advanced-crafting"},
     enabled = false,
     allow_productivity = false,
+    auto_recycle = false,
     energy_required = 4,
     ingredients =
     {
@@ -314,6 +324,7 @@ if settings.startup["dye-enable-refined-concrete"].value == true then
           categories = {"advanced-crafting"},
           enabled = false,
           allow_productivity = false,
+          auto_recycle = false,
           energy_required = 4,
           ingredients =
           {
@@ -329,6 +340,7 @@ if settings.startup["dye-enable-refined-concrete"].value == true then
           categories = {"advanced-crafting"},
           enabled = false,
           allow_productivity = false,
+          auto_recycle = false,
           energy_required = 4,
           ingredients =
           {
@@ -344,6 +356,7 @@ if settings.startup["dye-enable-refined-concrete"].value == true then
           categories = {"advanced-crafting"},
           enabled = false,
           allow_productivity = false,
+          auto_recycle = false,
           energy_required = 4,
           ingredients =
           {
@@ -359,6 +372,7 @@ if settings.startup["dye-enable-refined-concrete"].value == true then
           categories = {"advanced-crafting"},
           enabled = false,
           allow_productivity = false,
+          auto_recycle = false,
           energy_required = 4,
           ingredients =
           {
@@ -375,6 +389,7 @@ if settings.startup["dye-enable-refined-concrete"].value == true then
           categories = {"advanced-crafting"},
           enabled = false,
           allow_productivity = false,
+          auto_recycle = false,
           energy_required = 4,
           ingredients =
           {
