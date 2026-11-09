@@ -2,7 +2,7 @@
 Version: 1.0.8
 Date: 2026-11-10
   Bugfixes:
-    - Fixed refined concrete not being removable
+    - Fixed refined concrete not being removable by wanda-phi
     - Fixed tinted pipes being incompatible with rocket silos
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.7
