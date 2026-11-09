@@ -133,6 +133,7 @@ local entity_types = {
     "heat-exchanger",
     "fusion-generator",
     "fluid-turret",
+    "rocket-silo",
 }
 
 local pipe_types = {
