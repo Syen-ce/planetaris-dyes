@@ -162,23 +162,3 @@ for _, entity_type in pairs(pipe_types) do
         end
     end
 end
-
--- add minable to existing concrete
-
-local function make_tile_minable(colour)
-    if data.raw["tile"][colour .. "-refined-concrete"] and data.raw.item["planetaris-" .. colour .. "-refined-concrete"] then
-        data.raw["tile"][colour .. "-refined-concrete"].minable = {mining_time = 0.1, result = "planetaris-" .. colour .. "-refined-concrete"}  
-    end
-end
-
-make_tile_minable("red")
-make_tile_minable("green")
-make_tile_minable("blue")
-make_tile_minable("cyan")
-make_tile_minable("purple")
-make_tile_minable("yellow")
-make_tile_minable("orange")
-make_tile_minable("acid")
-make_tile_minable("pink")
-make_tile_minable("black")
-make_tile_minable("brown")
